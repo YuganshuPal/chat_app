@@ -1,6 +1,6 @@
 {
-    "name": "chat_app_firebase",
-    "short_name": "chat_app_firebase",
+    "name": "chat_app_fire",
+    "short_name": "chat_app_fire",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
