@@ -1,4 +1,5 @@
 import 'package:chat_app_firebase/firebase_options.dart';
+
 import './Auth/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -7,6 +8,7 @@ import 'theme.dart';
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+    name: 'chatApp',
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
